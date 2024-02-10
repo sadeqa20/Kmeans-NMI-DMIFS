@@ -12,3 +12,11 @@ INSTRUCTION:
 5) line 53-88 calculate Normalize Mutual Information
 6) line 89-93 calculate Dynamic Mutual Information Feature Selection
 7) line 97-99 calculate Performance with ACC-Precision-Recall & F1
+
+
+Performance:
+These studies use stratified 10-fold cross validation to randomly divide the original dataset into training and test sets in order to evaluate performance.
+Decision Tree (DT): The decision tree classifier is used as the machine learning model to categorize the training data for the dataset. This classifier is employed in this study since the decision tree is also the fundamental tool for feature selection in the feature importance ranking methodology. Second, the suggested method produces a dataset that satisfies the criteria for the decision tree method. It considers the dataset's minimal amount of features and data, the heterogeneity of the data for each feature, and the absence of redundant or duplicate data in the newly created dataset.
+Random Forest (RF): RF is a multi-decision tree ensemble technique that uses majority voting and has a several uses in high-dimensional and challenging scenarios for pattern identification. Decision trees have a lot of variance, therefore RF tries to reduce it.
+ K-Nearest Neighbors (KNN): When data is not easily separable, KNN is one of the machine learning algorithms that has acceptable classification performance. KNN searches all previous experiences for the K closest experiences (data points), which are referred to as the K nearest neighbors.
+
