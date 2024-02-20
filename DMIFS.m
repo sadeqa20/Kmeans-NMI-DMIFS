@@ -1,1 +1,1 @@
-function [cmb] = DMIFS( X_data, Y_labels, alpha)
+function [cmb] = DMIFS( X_data, Y_labels)
