@@ -12,20 +12,14 @@ clc
 % data=load('./Datasets/Lymphoma.mat');data=data.a;
 % data=load('./Datasets/MLL.mat');data=data.a;
 % data=load('./Datasets/ovarian.mat');data=data.data;
-%%2clas Lung-Leukemia_2c-colon-CNS-ovarian
-%%3class MLL - Lymphoma - Leukemia_3c
-%%4class SRBCT - Leukemia_4c
- %%
 
+%%
 Featurs = data(:,1:end-1);
 Targets = data(:,end);
 [p q]=size(Featurs);
 M=max(Targets);
 
-
-
-   
-   %%
+%%
    disp('------------------calculate K-means----------------------------');
    
 
