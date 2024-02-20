@@ -9,7 +9,7 @@ clc
 % data=load('./Datasets/Leukemia_3c.mat');data=data.a;
 % data=load('./Datasets/Leukemia_4c.mat');data=data.a;
 % data=load('./Datasets/Lung.mat');data=data.a;
-data=load('./Datasets/Lymphoma.mat');data=data.a;
+% data=load('./Datasets/Lymphoma.mat');data=data.a;
 % data=load('./Datasets/MLL.mat');data=data.a;
 % data=load('./Datasets/ovarian.mat');data=data.data;
 %%2clas Lung-Leukemia_2c-colon-CNS-ovarian
