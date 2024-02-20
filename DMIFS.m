@@ -1,6 +1,6 @@
 function [cmb] = DMIFS( X_data, Y_labels, alpha)
 % Summary 
-%    IAMB algorithm for feature selection  
+% DMIFS algorithm for feature selection  
 % Inputs
 %    X_data: n x d matrix X, with categorical values for n examples and d features
 %    Y_labels: n x 1 vector with the labels
