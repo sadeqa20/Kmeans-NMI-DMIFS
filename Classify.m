@@ -18,7 +18,6 @@ TestFeaturs = Featurs(tsIndex,:);
 TestTargets = Targets(tsIndex,:);
 
 %% Classify
-
 %-------------Decision Tree---------------
 DT=DTree(TestFeaturs,TrainFeaturs,TrainTargets);
 accd=confusionmat(TestTargets,DT);
