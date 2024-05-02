@@ -5,7 +5,6 @@ function new_data = feature_clustering( X_data, clus )
 % Inputs:
 %    X_data: n x d matrix X, with categorical values for n examples and d features
 %    bins: the number of categories
-
 for fnum = 1:size(X_data,2)
     if length(unique(X_data(:,fnum)))<=clus
         [~,~,new_data(:,fnum)] = unique(X_data(:,fnum)); % To have as many categories as the alphabet
