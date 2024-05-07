@@ -2,7 +2,6 @@ function CMI= cmi(  X, Y, Z)
 % Summary 
 %    Estimate conditional mutual information I(X;Y|Z) between categorical variables X,Y,Z 
 %    X,Y,Z can be matrices which are converted into a joint variable before computation
-
 epsilon=10^(-50);
 
 if length(Z)==0 || length(unique(Z))==1
