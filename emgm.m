@@ -29,8 +29,8 @@ while ~converged && t < maxiter
     else
         converged = llh(t)-llh(t-1) < tol*abs(llh(t));
     end
-
 end
+
 llh = llh(2:t);
 if converged
     fprintf('Converged in %d steps.\n',t-1);
