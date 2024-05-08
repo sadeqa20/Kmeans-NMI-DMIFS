@@ -19,9 +19,6 @@ for fnum = 1:size(X_data,2)
             boundaryend(n) = minval + n*width;
         end
         boundaryend(clus) = boundaryend(clus) + 1; 
-        
-        
-        
         lastboundaryend = minval;
         newfeature=0;
         for n=1:clus
