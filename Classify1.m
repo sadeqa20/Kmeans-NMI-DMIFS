@@ -10,10 +10,8 @@ TsNum = NSamples - TrNum;
 R = randperm(NSamples);
 trIndex = R(1 : TrNum);
 tsIndex = R(1+TrNum : end);
-
 TrainFeaturs = Featurs(trIndex,:);
 TrainTargets = Targets(trIndex,:);
-
 TestFeaturs = Featurs(tsIndex,:);
 TestTargets = Targets(tsIndex,:);
 
