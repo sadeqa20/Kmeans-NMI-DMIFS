@@ -1,4 +1,4 @@
-function [ Confuse ] = peformance1( confusionMatrix)
+function [ Confuse ] = peformance1(confusionMatrix)
 
 [m n]=size(confusionMatrix);
 c=confusionMatrix;
