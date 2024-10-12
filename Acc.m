@@ -10,6 +10,5 @@ a_Recall_dt=mean(Recall_dt);a_Recall_knn=mean(Recall_knn);a_Recall_rf=mean(Recal
 a_fmeasure_dt=mean(fmeasure_dt);a_fmeasure_knn=mean(fmeasure_knn);a_fmeasure_rf=mean(fmeasure_rf);
 a_final={[(length(data(1,:))-1)],[a_acc_dt],[a_acc_knn],[a_acc_rf];[(length(data(1,:))-1)],[a_Precision_dt],[a_Precision_knn],[a_Precision_rf];...
       [(length(data(1,:))-1)],[a_Recall_dt],[a_Recall_knn],[a_Recall_rf];[(length(data(1,:))-1)],[a_fmeasure_dt],[a_fmeasure_knn],[a_fmeasure_rf]};
-   final=cell2mat(a_final);
-   
+   final=cell2mat(a_final);   
 %    disp(KOL_a4);
